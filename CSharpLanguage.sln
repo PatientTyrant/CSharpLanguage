@@ -13,13 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_GenericTypes_2", "2_Gener
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_GenericCollections", "3_GenericCollections\3_GenericCollections.csproj", "{CECAC6A6-1738-4470-AED6-29032BD7228B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Struct", "4_Struct\4_Struct.csproj", "{D0F18930-F7BD-4C42-95EF-BB890728468B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Struct", "4_Struct\4_Struct.csproj", "{D0F18930-F7BD-4C42-95EF-BB890728468B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Enum", "4_Enum\4_Enum.csproj", "{A97A6D6E-F995-4332-A5BF-B2EFA09F4051}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Enum", "4_Enum\4_Enum.csproj", "{A97A6D6E-F995-4332-A5BF-B2EFA09F4051}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_StaticTypes", "5_StaticTypes\5_StaticTypes.csproj", "{A4C634D0-ABB3-4DBE-B17D-BEA020065400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_StaticTypes", "5_StaticTypes\5_StaticTypes.csproj", "{A4C634D0-ABB3-4DBE-B17D-BEA020065400}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_ExtensionsMethod", "5_ExtensionsMethod\5_ExtensionsMethod.csproj", "{0537A89B-A338-4590-AB8C-01B781E62AD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_ExtensionsMethod", "5_ExtensionsMethod\5_ExtensionsMethod.csproj", "{0537A89B-A338-4590-AB8C-01B781E62AD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Linq", "6_Linq\6_Linq.csproj", "{26E64ACC-A969-4826-B3FB-643C79FCC0E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Linq2", "6_Linq2\6_Linq2.csproj", "{846776D4-B071-4CF6-A46E-1D2768BBBC1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Linq3", "6_Linq3\6_Linq3.csproj", "{F87B0C54-D07B-4BD7-B7D6-5F467863214E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{0537A89B-A338-4590-AB8C-01B781E62AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0537A89B-A338-4590-AB8C-01B781E62AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0537A89B-A338-4590-AB8C-01B781E62AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E64ACC-A969-4826-B3FB-643C79FCC0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E64ACC-A969-4826-B3FB-643C79FCC0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E64ACC-A969-4826-B3FB-643C79FCC0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E64ACC-A969-4826-B3FB-643C79FCC0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846776D4-B071-4CF6-A46E-1D2768BBBC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846776D4-B071-4CF6-A46E-1D2768BBBC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846776D4-B071-4CF6-A46E-1D2768BBBC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846776D4-B071-4CF6-A46E-1D2768BBBC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87B0C54-D07B-4BD7-B7D6-5F467863214E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87B0C54-D07B-4BD7-B7D6-5F467863214E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87B0C54-D07B-4BD7-B7D6-5F467863214E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87B0C54-D07B-4BD7-B7D6-5F467863214E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
